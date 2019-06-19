@@ -1,0 +1,771 @@
+/* 
+ * UNIVERSAL DEFAULTS
+ * Set only those things that will be the same for every media type
+ */
+* {
+  font-family: sans-serif;
+  line-height: 1.25em;
+  box-sizing: border-box;
+}
+/* If the body is not full width, put it in the center of the window */
+html {
+  text-align: center;
+}
+body {
+  font-size: 10pt;
+  text-align: left;
+  color: black;
+}
+h1 {
+  font-size: 1.4em;
+  color: navy;
+}
+h2 {
+  font-size: 1.1em;
+  padding: 0;
+  margin: 0;
+}
+
+#header {}
+#header .name {
+  font-size: 1.2em;
+  font-weight: bold; 
+}
+#header .specialty {}
+#header .phone {}
+#header .email {
+  color: blue;
+}
+
+#summary {}
+#summary .wrapper {}
+#summary .wrapper hr {}
+#summary .wrapper a {}
+
+#skills {}
+#skills .list {}
+#skills .list h2 {}
+#skills .list ul {}
+#skills .list ul li {}
+
+#expertise {}
+#expertise .list {}
+#expertise .list h2 {}
+#expertise .list ul {}
+#expertise .list ul li {}
+
+#history {}
+#history .position {}
+#history .position .dates {
+  font-size: 0.8em;
+  color: gray;
+}
+#history .position .dates .from {}
+#history .position .dates .to {}
+#history .position .title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+#history .position .client {
+  font-size: 1.1em;
+  display: inline;
+  color: navy;
+}
+#history .position .client:before {
+  font-size: 0.9em;
+  color: silver;
+}
+#history .position .client.contract:before {
+  content: 'contractor @';
+}
+#history .position .client.employee:before {
+  content: 'employee @';
+}
+#history .position .location {
+  font-size: 0.9em;
+  display: inline;
+  color: silver;
+}
+#history .position .location:before {
+  content: 'in';
+}
+#history .position .technologies {
+  font-size: 0.9em;
+  border-top: 1px solid silver;
+  color: gray;
+  border-bottom: 1px solid silver;
+}
+
+#history .position .technologies:before {
+  display: inline;
+  content: 'Technologies Used:';
+}
+#history .position .responsibilities {}
+#history .position .highlights {}
+#history .position .highlights ul {}
+#history .position .highlights ul li {}
+
+#education {}
+#education .school {}
+#education .when {
+  font-size: 0.9em;
+  color: gray;
+}
+#education .name {
+  display: inline;
+  color: navy;
+}
+#education .location {
+  font-size: 0.9em;
+  display: inline;
+  color: silver;
+}
+#education .location:before {
+  content: 'in ';
+}
+#education .focus {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+#education .focus ul {}
+#education .focus ul li {}
+
+#export {
+	margin-top: 0.5in;
+	font-size: 6pt;
+	color: silver;
+}
+
+@media screen 
+{
+  /*
+   * SCREEN DEFAULTS
+   * Set only those things that are the same regardless of
+   * display size, like colors
+   */
+  html {
+    background: #333333;
+  }
+  body {
+    background: #f0f0f0;
+  }
+  h1 {
+    text-shadow: 1px 1px 0px white;
+  }
+  h2 { }
+
+  #header {}
+  #header .name {}
+  #header .specialty {}
+  #header .phone {}
+  #header .email {}
+
+  #summary {}
+  #summary .wrapper {}
+  #summary .wrapper hr {}
+  #summary .wrapper a {}
+
+  #skills {}
+  #skills .list {}
+  #skills .list h2 {}
+  #skills .list ul {}
+  #skills .list ul li {}
+
+  #expertise {}
+  #expertise .list {}
+  #expertise .list h2 {}
+  #expertise .list ul {}
+  #expertise .list ul li {}
+
+  #history {}
+  #history .position {}
+  #history .position .dates {}
+  #history .position .dates .from {}
+  #history .position .dates .to {}
+  #history .position .title {}
+  #history .position .client { }
+  #history .position .client:before { }
+  #history .position .client.contract:before { }
+  #history .position .client.employee:before { }
+  #history .position .location { }
+  #history .position .location:before { }
+  #history .position .technologies { }
+  #history .position .technologies:before { }
+  #history .position .responsibilities {}
+  #history .position .highlights {}
+  #history .position .highlights ul {}
+  #history .position .highlights ul li {}
+
+  #education {}
+  #education .school {}
+  #education .when { }
+  #education .name { }
+  #education .location { }
+  #education .location:before { }
+  #education .focus { }
+  #education .focus ul {}
+  #education .focus ul li {}
+
+  /* For Consistency */
+  #summary .wrapper,
+  #skills .list,
+  #expertise .list,
+  #history .position,
+  #education .school {
+    background: white;
+    border: 1px solid silver;
+    border-radius: 3px;
+    box-shadow: 0px 1px 2px #cccccc;
+  }
+}
+/*
+ * Common media sizes:
+ *   iPhone 5/5SE:      320x568
+ *   iPhone 6/7/8:      375x667
+ *   iPhone 6/7/8 plus: 414x736
+ *   iPhone X:          375x812
+ *   iPad:              768x1024
+ *   iPad Pro:          1024x1366
+ *   Galaxy S5:         360x640
+ *   Pixel 2:           411x731
+ *   Pixel 2 XL:        411x823
+ */
+
+/* Cell Phone */
+@media screen and ( max-width: 420px ) {
+  /* no border around the virtual page */
+  html {
+    padding: 0;
+    margin: 0;
+  }
+  /* minimize whitespace around body */
+  body {
+    border: 0;
+    margin: 0;
+    border: 0;
+    padding: 3%;
+  }
+  h1 { }
+  h2 { }
+
+  #header { }
+  #header:before {
+    content: 'Resume For';
+    display: block;
+    color: navy;
+  }
+  #header .name { }
+  #header .specialty {
+    margin-top: 5px;
+    border-top: 1px dotted silver;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted silver;
+    margin-bottom: 5px;
+  }
+  #header .phone {}
+  #header .email { }
+  #header .phone:before,
+  #header .email:before {
+    display: block;
+    float: left;
+    width: 3em;
+    color: gray;
+  }
+  #header .phone:before {
+    content: 'Phone:';
+  }
+  #header .email:before {
+    content: 'Email:';
+  }
+
+  #summary {}
+  #summary .wrapper {}
+  #summary .wrapper hr {}
+  #summary .wrapper a {}
+
+  #skills {}
+  #skills .list {}
+  #skills .list h2 { }
+  #skills .list ul { }
+  #skills .list ul li { }
+
+  #expertise {}
+  #expertise .list {}
+  #expertise .list h2 {}
+  #expertise .list ul { }
+  #expertise .list ul li { }
+
+  #history {}
+  #history .position { }
+  #history .position .dates { }
+  #history .position .dates .from {}
+  #history .position .dates .to {}
+  #history .position .title { }
+  #history .position .client {}
+  #history .position .client:before { }
+  #history .position .client.contract:before { }
+  #history .position .client.employee:before { }
+  #history .position .location { }
+  #history .position .location:before { }
+  #history .position .technologies {
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
+  #history .position .technologies:before { }
+  #history .position .responsibilities {}
+  #history .position .highlights {}
+  #history .position .highlights ul { }
+  #history .position .highlights ul li { }
+
+  #education {}
+  #education .school {}
+  #education .when { }
+  #education .name { }
+  #education .location { }
+  #education .location:before { }
+  #education .focus { }
+  #education ul { }
+  #education ul li { }
+
+  #summary .wrapper,
+  #skills .list,
+  #expertise .list,
+  #history .position,
+  #education .school {
+    padding: 3%;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  #skills .list ul,
+  #expertise .list ul,
+  #history .position .highlights ul,
+  #education ul {
+    margin-top: 0.05in;
+    padding-left: 0.125in;
+    margin-bottom: 0in;
+  }
+
+  #skills .list ul li,
+  #expertise .list ul li,
+  #history .position .highlights ul li,
+  #education ul li {
+    margin-left: 0.125in;
+  }
+
+}
+/* MEDIUM FORMAT, E.G. iPad */
+@media screen and ( min-width: 421px ) and ( max-width: 9in ) {
+  html {}
+  body {
+    width: calc( 100% - 0.5in );
+    max-width: 8.5in;
+    padding: 0.25in;
+    margin: 0.25in;
+    font-size: 10pt;
+  }
+  h1 { }
+  h2 { }
+
+  #header {}
+  #header .name {}
+  #header .specialty {}
+  #header .phone {}
+  #header .email {}
+
+  #summary {}
+  #summary .wrapper {}
+  #summary .wrapper hr {}
+  #summary .wrapper a {}
+
+  #skills {
+    width: calc( 100% + 0.125in );
+  }
+  #skills h1 {
+    margin-bottom: 0;
+  }
+  #skills .list {
+    width: calc( 50% - 0.125in );
+    margin-right: 0.125in;
+    margin-top: 0.125in;
+  }
+  #skills .list h2 { }
+  #skills .list ul {}
+  #skills .list ul li {}
+
+  #expertise {
+    width: calc( 100% + 0.125in );
+  }
+  #expertise h1 {
+    margin-bottom: 0;
+  }
+  #expertise .list {
+    width: calc( 50% - 0.125in );
+    margin-right: 0.125in;
+    margin-top: 0.125in;
+  }
+  #expertise .list h2 {}
+  #expertise .list ul {}
+  #expertise .list ul li {}
+
+  #history {}
+  #history .position {
+    margin-bottom: 0.25in;
+  }
+  #history .position .dates {
+    float: right;
+  }
+  #history .position .dates .from {}
+  #history .position .dates .to {}
+  #history .position .title { }
+  #history .position .client { }
+  #history .position .client:before { }
+  #history .position .client.contract:before {}
+  #history .position .client.employee:before {}
+  #history .position .location { }
+  #history .position .location:before {}
+  #history .position .technologies {
+    margin-top: 0.125in;
+    padding-top: 0.125in;
+    padding-bottom: 0.125in;
+    margin-bottom: 0.125in;
+  }
+  #history .position .responsibilities {
+    padding-bottom: 0.125in;
+    margin-bottom: 0.125in;
+    border-bottom: 1px solid silver;
+  }
+  #history .position .highlights {}
+  #history .position .highlights ul {}
+  #history .position .highlights ul li {}
+
+  #education {
+    width: calc( 100% + 0.125in );
+  }
+  #education h1 {
+    margin-bottom: 0;
+  }
+  #education .school {
+    width: calc( 50% - 0.125in );
+    margin-right: 0.125in;
+    margin-top: 0.125in;
+  }
+  #education .when {}
+  #education .name {}
+  #education .location {}
+  #education .focus {}
+  #education .focus ul {}
+  #education .focus ul li {}
+
+  #summary .wrapper,
+  #skills .list,
+  #expertise .list,
+  #history .position,
+  #education .school {
+    padding: 0.125in;
+  }
+
+  #skills .list ul,
+  #expertise .list ul,
+  #history .position .highlights ul,
+  #education ul {
+    margin-top: 0.05in;
+    padding-left: 0.125in;
+    margin-bottom: 0in;
+  }
+
+  #skills .list ul li,
+  #expertise .list ul li,
+  #history .position .highlights ul li,
+  #education ul li {
+    margin-left: 0.125in;
+  }
+
+}
+/* LARGE FORMAT, e.g. Desktop */
+@media screen and ( min-width: 9in ) {
+  html {}
+  body {
+    font-size: 11pt;
+    width: calc( 100% - 0.5in );
+    max-width: 8.5in;
+    padding: 1in;
+    margin: 0.25in;
+  }
+  h1 { }
+  h2 { }
+
+  #header {
+    font-size: 12pt;
+    margin-top: -0.125in;
+    margin-right: -0.125in;
+    float: right;
+    background: white;
+    padding: 0.25in;
+    border: 1px solid navy;
+    margin-bottom: 0.125in;
+    margin-left: 0.125in;
+    width: 50%;
+  }
+  #header .name { }
+  #header .specialty {}
+  #header .phone {}
+  #header .email {}
+
+  #summary {}
+  #summary .wrapper {
+    padding: 0.25in;
+  }
+  #summary .wrapper hr {
+    margin-left: 0.25in;
+    margin-right: 0.25in;
+    border: 0;
+    border-bottom: 1px dotted silver;
+  }
+  #summary .wrapper a {}
+
+  #skills {
+    width: calc( 100% + 0.125in );
+  }
+  #skills h1 {
+    margin-bottom: 0;
+  }
+  #skills .list {
+    width: calc( 33% - 0.125in );
+    margin-right: 0.125in;
+    margin-top: 0.125in;
+  }
+  #skills .list h2 {}
+  #skills .list ul {}
+  #skills .list ul li {}
+
+  #expertise {
+    width: calc( 100% + 0.125in );
+  }
+  #expertise h1 {
+    margin-bottom: 0;
+  }
+  #expertise .list {
+    width: calc( 50% - 0.125in );
+    margin-right: 0.125in;
+    margin-top: 0.125in;
+  }
+  #expertise .list h2 {}
+  #expertise .list ul {}
+  #expertise .list ul li {}
+
+  #history {}
+  #history .position {
+    margin-bottom: 0.25in;
+  }
+  #history .position .dates {
+    float: right;
+  }
+  #history .position .dates .from {}
+  #history .position .dates .to {}
+  #history .position .title { }
+  #history .position .client { }
+  #history .position .client:before { }
+  #history .position .client.contract:before {}
+  #history .position .client.employee:before {}
+  #history .position .location { }
+  #history .position .location:before {}
+  #history .position .technologies {
+    margin-top: 0.125in;
+    padding-top: 0.125in;
+    padding-bottom: 0.125in;
+    margin-bottom: 0.125in;
+  }
+  #history .position .responsibilities {
+    padding-bottom: 0.125in;
+    margin-bottom: 0.125in;
+    border-bottom: 1px solid silver;
+  }
+  #history .position .highlights {}
+  #history .position .highlights ul {}
+  #history .position .highlights ul li {}
+
+  #education {
+    width: calc( 100% + 0.125in );
+  }
+  #education h1 {
+    margin-bottom: 0;
+  }
+  #education .school {
+    width: calc( 50% - 0.125in );
+    margin-right: 0.125in;
+    margin-top: 0.125in;
+  }
+  #education .when {}
+  #education .name {}
+  #education .location {}
+  #education .focus {}
+  #education .focus ul {}
+  #education .focus ul li {}
+
+  #skills .list,
+  #expertise .list,
+  #history .position,
+  #education .school {
+    padding: 0.125in;
+  }
+
+  #skills .list ul,
+  #expertise .list ul,
+  #history .position .highlights ul,
+  #education ul {
+    margin-top: 0.05in;
+    padding-left: 0.125in;
+    margin-bottom: 0in;
+  }
+
+  #skills .list ul li,
+  #expertise .list ul li,
+  #history .position .highlights ul li,
+  #education ul li {
+    margin-left: 0.125in;
+  }
+
+}
+
+@page {
+  size: 8.5in 11in;
+  margin: 1in;
+}
+
+@media print {
+
+  html {
+    width: 8.5in;
+    padding: 0; 
+    margin: 0;
+  }
+  body {
+    width: 8.5in;
+    padding: 1in;
+    margin: 0;
+    font-size: 10pt;
+  }
+  h1 {}
+  h2 {
+	margin: 0;
+    padding: 0;
+    text-decoration: underline;
+    margin-bottom: 0.125in;
+  }
+
+  #header {}
+  #header:before {
+	  display: block;
+	  content: 'Please download the rich text version for printing.  Thank you!';
+	  font-weight: bold;
+	  color: red;
+	  font-size: 3em;
+	  line-height: 1.25em;
+	  margin-bottom: 1in;
+  }
+  #header .name { }
+  #header .specialty {}
+  #header .phone {}
+  #header .email {}
+
+  #summary {
+    page-break-inside: avoid;
+  }
+  #summary .wrapper { }
+  #summary .wrapper hr {
+    margin-left: 0.25in;
+    margin-right: 0.25in;
+    border: 0;
+    border-top: 1px dotted silver;
+  }
+  #summary .wrapper a {}
+
+  #skills { 
+	display: none;
+  }
+  #skills .list { }
+  #skills .list h2 {}
+  #skills .list ul { }
+  #skills .list ul li {}
+
+  #expertise {
+    display: none;
+  }
+  #expertise .list { }
+  #expertise .list h2 {}
+  #expertise .list ul {}
+  #expertise .list ul li {}
+
+  #history {}
+  #history .position {
+    page-break-inside: avoid;
+  }
+  #history .position .dates {
+	font-size: 0.5em;
+	display: inline-block;
+	width: 0.9in;
+	padding-right: 0.0625in;
+  }
+  #history .position .dates .from {}
+  #history .position .dates .to {}
+  #history .position .title {
+	font-size: 1em;
+	display: inline-block;
+	width: 3.25in;
+	padding-right: 0.0625in;
+  }
+  #history .position .client {
+	font-size: 1em;
+	display: inline-block;
+	width: 2.2in;
+  }
+  #history .position .client:before {
+	  display: none;
+  }
+  #history .position .client.contract:before {}
+  #history .position .client.employee:before {}
+  #history .position .location {
+	  display: none;
+  }
+  #history .position .location:before {}
+  #history .position .technologies {
+	display: none;
+    margin-top: 0.125in;
+    padding-top: 0.125in;
+    padding-bottom: 0.125in;
+    margin-bottom: 0.125in;
+  }
+  #history .position .responsibilities {
+	display: none;
+  }
+  #history .position .highlights {
+	display: none;
+  }
+  #history .position .highlights ul {}
+  #history .position .highlights ul li {}
+
+  #education {
+	display: none;
+  }
+  #education .school {}
+  #education .when { }
+  #education .name { }
+  #education .location { }
+  #education .focus { }
+  #education .focus ul { }
+  #education .focus ul li {}
+
+  .top-of-page {
+    page-break-before: always;
+    padding-top: 1in;
+  }
+
+  #export {
+	  display: none;
+  }
+
+}

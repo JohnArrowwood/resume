@@ -1,0 +1,474 @@
+CONTACT INFORMATION
+
+  Name.: John Michael Arrowwood
+  Title: Software Development Engineer in Test (SDET)
+  Phone: 407-603-5106
+  Email: John at Arrowwood dot org
+
+
+SUMMARY
+
+  John is a long-time veteran of Software Quality Assurance, Test 
+  Automation, and Web Development. His specialty is finding solutions to 
+  problems, addressing the pain points, and removing roadblocks. He is a 
+  certified ScrumMaster and advocate of Agile methodologies. He has worked 
+  in many different industries, including entertainment, healthcare, IVR, 
+  finance, and telecom. 
+  ---
+  John lives in the Orlando, Florida area, but is open to contracts 
+  anywhere in the United States. He is open to full-time employment or 
+  contract work (W2 or 1099/corp-to-corp). 
+  ---
+  This resume best viewed online: arrowwood.org/resume, and is also 
+  available as plain text and rich text. If you are interested in my 
+  approach to automation, I have posted a slideshow on the subject to 
+  arrowwood.org/automation-philosophy.  
+
+
+TECHNICAL SKILLS
+
+  API TESTING
+    Java / TestNG / AssertJ, Scala / ScalaTest / ScalaCheck, JavaScript / 
+    Mocha, Perl, Postman, JMeter, SoapUI 
+
+  GUI TESTING
+    Selenium, SilkTest, WinRunner, Visual Studio, Visual Basic 
+
+  PERFORMANCE TESTING
+    Gatling, JMeter, LoadRunner, Perl 
+
+  TEST MANAGEMENT
+    TestRails, VersionOne, Jama, TestDirector (admin) 
+
+  ISSUE TRACKING
+    Jira, Mantis, VersionOne, PVCS Tracker, PVCS Dimensions, TestTrack, 
+    ClearDDTS (now ClearQuest), and more 
+
+  ACTIVE LANGUAGES
+    Java, Scala, JavaScript / node.js, TypeScript / Angular.js, Perl, UNIX 
+    Shell scripts 
+
+  OTHER LANGUAGES
+    Go, Python, Ruby, Groovy, PHP, 4TEST (SilkTest), Oracle PL/SQL, TSL 
+    (WinRunner), BATCH files (DOS/Windows), Visual Basic, Rexx, C / C++, 
+    dBase/FoxBASE, x86 Assembler, Pascal, Basic 
+
+  SCRUM / AGILE
+    Certified ScrumMaster, Jira Agile, VersionOne, Rally, Mingle, 
+    AgileOnDemand, Sticky Notes on the Wall (my favorite) 
+
+  DBMS
+    MongoDB, MySQL, Oracle, SQL Server, Informix 
+
+  VERSION CONTROL
+    git, SVN, PVCS Version Manager, PVCS Dimensions, CVS, ClearCase 
+
+
+SPECIALIZATIONS
+
+  DATA ANALYSIS
+
+   * Advanced Regular Expression Parsing 
+   * Statistical Sampling 
+   * Equivalence Class Sampling 
+
+  TEST GENERATION
+
+   * Combinations and Permutations 
+   * Equivalence Class Elimination 
+   * Pairwise Testing 
+   * Generated Test Source 
+
+  TESTING DSL
+
+   * Libraries that abstract APIs 
+   * Syntaxes that are human-readable 
+   * Empowering non-programmers to read and contribute tests 
+   * Without giving up power (unlike cucumber and FIT) 
+
+  QUALITY AT EVERY PHASE
+
+   * Requirements 
+   * Architecture 
+   * Design 
+   * Implementation 
+   * Testing 
+
+  MACHINE LEARNING
+
+   * Regression 
+   * Classification 
+   * Clustering & Retrieval 
+   * Backpropagation and Deep Neural Nets 
+   * Regularization (Penalizing short-cuts) 
+   * Genetic Algorithms, esp. NeuroEvolution of Augmenting Topologies 
+     (NEAT) 
+
+  WEB TECHNOLOGIES
+
+   * DEV - HTML, CSS, JavaScript, jQuery, Angular 
+   * SVG - for programmatic image generation 
+   * HTTP - syntax, headers, response codes, clients, servers 
+   * RESTful web services 
+
+
+WORK HISTORY
+
+  From....: Nov 2015
+  To......: Present
+  Title...: Software Development Engineer in Test (SDET)
+  Company.: The Walt Disney Company
+  As......: Employee
+  Location: Celebration, FL
+  Tech....: Postman, Java, TestNG, Jersey, AssertJ, Jira, Confluence 
+
+    Responsible for all aspects of release quality, focused on system test 
+    automation for Keystone, Disney's central authorization management 
+    service 
+
+     * Used code generation to pre-define nearly 9,000 API test cases 
+       across 30 API endpoints 
+     * Supervised outsource team implementing tests 
+     * Influenced next-generation architectural decisions for platform 
+       re-write 
+     * Prototyped a tool for reusable test case definitions using Node, 
+       Angular, and MySQL, integrated with MyID (the federated SSO 
+       service) 
+
+
+  From....: Apr 2014
+  To......: October 2015
+  Title...: Software Performance Engineer
+  Company.: Cigna
+  As......: Contractor
+  Location: Portland, OR
+  Tech....: Scala, Gatling, Graphite, Grafana, JavaScript, Mocha, Jira, 
+            Jama 
+
+    Defining, creating, and running functional and load test scenarios; 
+    Tracking and reporting system performance; Certifying system changes 
+    for customer authentication and details API 
+
+     * Enabled "what-if" exploration with a framework for defining 
+       separately the behavior of each of the dozen or so B2B API clients, 
+       then combining them into a single Gatling scenario for simultaneous 
+       execution 
+     * Simplified and streamlined Grafana management with a pair of 
+       parameterized scripted dashboards 
+     * Used code to generate every combination and permutation of test 
+       case 
+
+
+  From....: Mar 2010
+  To......: Mar 2014
+  Title...: Automation Engineer
+  Company.: Comcast
+  As......: Contractor
+  Location: West Chester, PA
+  Tech....: Perl, HTML, CSS, JavaScript, Ajax 
+
+    IVR team process automation, data analysis, reporting capabilities 
+
+     * Setup log rotation, analysis, alerting, and archival processes, 
+       managing over 500 gigs per day 
+     * Constructed a custom log search utility to aid call tracing 
+     * Created single page application to expose relevant customer data to 
+       aid support personnel in isolating IVR problems 
+     * Used JMeter to isolate thread-safety issue in IVR application code 
+
+
+  From....: Jul 2009
+  To......: Dec 2009
+  Title...: Quality Assurance Engineer
+  Company.: Regence BCBS
+  As......: Contractor
+  Location: Portland, OR
+  Tech....: VersionOne, Perl 
+
+    Scrum/Agile team member, ScrumMaster, and QA Lead on a SalesForce 
+    integration project; Responsible for all aspects of quality, including 
+    working with business owner and client QA, coordinating the testing 
+    process, running defect meetings, getting status updates from 
+    developers, generating reports and burn-down charts, etc. 
+
+     * Worked with product owners to get testable acceptance criteria, 
+       reviewed by QA, before work was accepted for implementation in a 
+       Sprint 
+     * Instituted Paired Testing - developers and QA working together to 
+       validate acceptance criteria 
+     * Performed Agile Backlog Management tool comparison for purposes of 
+       organization standardization 
+
+
+  From....: Jul 2008
+  To......: Jun 2009
+  Title...: Quality Assurance Engineer
+  Company.: Regence BCBS
+  As......: Contractor
+  Location: Portland, OR
+  Tech....: Perl, VersionOne 
+
+    Scrum/Agile team member, QA Lead on a project to create a data-driven 
+    Java/WebSphere web application; Responsible for test planning, 
+    coordination, execution, defect reporting and triage, and VersionOne 
+    administration 
+
+     * Automated production data extraction and test data setup and 
+       documentation 
+     * Automated validation of application flow for individual users 
+     * Used code to generate every combination and permutation of test 
+       case 
+     * Frequently offered solutions to browser-specific problems 
+     * Wrote a jQuery plugin for div expand/collapse that became a part of 
+       the end product 
+
+
+  From....: Jan 2008
+  To......: Jun 2008
+  Title...: Quality Assurance Engineer
+  Company.: Kronos
+  As......: Contractor
+  Location: Beaverton, OR
+  Tech....: JMeter, SilkTest 
+
+    Scrum/Agile team member, QA Lead working on a system security 
+    enhancement project 
+
+     * Assisted testing of system components as they were migrated to 
+       Windows Authentication 
+     * Performed detailed correctness testing of data encryption 
+       repository database (SQL Server + TSQL) 
+     * Used JMeter to identify performance issues in encryption repository 
+       design, analyzed and identified bottlenecks in design, presented 
+       and implemented recommendations for correcting performance issues 
+     * Utilized SilkTest to automate a portion of application behavior to 
+       facilitate data generation for back-end testing 
+
+
+  From....: Apr 2007
+  To......: Dec 2007
+  Title...: Quality Assurance Engineer
+  Company.: TransUnion
+  As......: Contractor
+  Location: Beaverton, OR
+  Tech....: Perl 
+
+    Scrum/Agile team member, QA Lead working on a customer identity 
+    verification system project 
+
+     * Used Perl to analyze production data (nearly a half-billion 
+       accounts) and apply equivalence classes to filter down to just over 
+       two million records, or about a quarter of a percent, while still 
+       retaining the same error-identifying potential of the full data 
+       set, allowing more coverage with fewer tests than a 'sampling' 
+       approach 
+     * Created Perl scripts and modules to validate the data 
+       transformation that seeded the lookup database 
+     * Automated customer lookup process, allowing parallel transaction, 
+       load generation, and rapid sweep through the database for accuracy 
+       assessment and reporting 
+
+
+  From....: Apr 2006
+  To......: Mar 2007
+  Title...: Application Support and Maintenance
+  Company.: Windstream Communications, Inc.
+  As......: Contractor
+  Location: Tualatin, OR
+  Tech....: Perl, HTML, CSS, PHP, MySQL, JavaScript 
+
+    Provided legacy application support for applications related to a 
+    telephone company technician dispatch system, keeping system up and 
+    running, correcting problems, and making enhancements as requested 
+
+     * Led several small to mid-sized product and/or process enhancement 
+       projects 
+     * Created many process automation scripts 
+     * Created a time-reporting system for the team to use to streamline 
+       reporting 
+
+
+  From....: Jul 2005
+  To......: Apr 2006
+  Title...: Quality Assurance / Automation
+  Company.: Iovation
+  As......: Contractor
+  Location: Portland, OR
+  Tech....: SilkTest, Perl, HTML, CSS, SVG, PL/SQL 
+
+    Led the automation of smoke and functional testing for web-based 
+    application administration interface for the company's online gambling 
+    site 
+
+     * Used code generation to identify a boolean-complete set of 
+       functional test cases 
+     * Generated automation test results using HTML/CSS to create 
+       highlighted, collapsible logs 
+     * Used Perl / WWW::Mechanize to quickly and cheaply produce load / 
+       stress on the system 
+     * Utilized code coverage tools for both PHP and Oracle Stored 
+       Procedures 
+     * Created an SVG-based web interface for visualizing massive networks 
+       of related data 
+     * Created fast association data clustering algorithm implemented in 
+       PL/SQL 
+     * Implemented a "perfect play" blackjack player, to help test the 
+       blackjack client 
+
+
+  From....: Dec 2004
+  To......: Jul 2005
+  Title...: Oracle Data Migration (ETL)
+  Company.: Iovation
+  As......: Contractor
+  Location: Portland, OR
+  Tech....: PL/SQL, Perl 
+
+    Brought in to implement a data migration from MySQL to Oracle for an 
+    online gambling site 
+
+     * Used a mix of technologies to perform the ETL 
+     * Created several scripts and stored procedures to verify the results 
+
+
+  From....: Jan 2003
+  To......: Dec 2004
+  Title...: Quality Assurance / Automation
+  Company.: CenturyTel
+  As......: Contractor
+  Location: Tualatin, OR / Monroe, LA
+  Tech....: WinRunner, TetsDirector 
+
+    Repair or replace existing automated test suite for billing system so 
+    it can run unattended 
+
+     * After two years, existing system still required two weeks for a 
+       test pass, as it was brittle and unable to handle unexpected events 
+     * In six months, we completely replaced the old automation, 
+       duplicating all functionality, and enabling test passes to run 
+       unattended in a couple of hours 
+     * Success largely thanks to a testing DSL that was easy to read and 
+       write, and which expressed both the logic of the test, and what to 
+       do in the event of the unexpected 
+     * Created Dynamic HTML tool for viewing / analyzing screen shots of 
+       failed tests which enabled us to code for those unexpected events 
+       without having to duplicate them 
+     * Modified TestDirector to enable parallel testing efforts to utilize 
+       the same TestDirector project instance 
+
+
+  From....: Aug 1999
+  To......: Jan 2003
+  Title...: Quality Assurance / Automation
+  Company.: Merant
+  As......: Employee
+  Location: Hillsboro, OR
+  Tech....: WinRunner, LoadRunner, TestDirector, PVCS Tracker, PVCS 
+            Dimensions, PVCS Version Manager, VMware 
+
+    Manual and automated testing of all of the company's SDLC tools 
+
+     * Led the effort to design and implement a Test Automation strategy 
+     * Introduced VMware into the test and development environments 
+     * Assisted developers with cross-browser web interface and CSS issues 
+
+
+  From....: Dec 1998
+  To......: Aug 1999
+  Title...: Quality Assurance / Automation
+  Company.: RuleSpace
+  As......: Employee
+  Location: Portland, OR
+  Tech....: Perl, VMware 
+
+    Manual and automated testing of machine-learning powered 
+    content-recognition equipped web proxy server 
+
+     * Planned and implemented an isolated test network, for performance 
+       evaluations 
+     * Implemented a web-crawler to generate load and to look for content 
+       to assist in page classifications 
+     * Built a web-based interface to assist in manual page 
+       classifications, for gathering system training data 
+     * Introduced VMware into testing process 
+
+
+  From....: Aug 1997
+  To......: Nov 1998
+  Title...: Quality Assurance / Build Automation
+  Company.: Dynamics Research Corporation
+  As......: Employee
+  Location: Beaverton, OR
+  Tech....: Perl, Batch files, shell scripts, Visual Basic, ClearDDTS 
+
+    Build automation and validation of a cross-platform middleware library 
+    for a rule-based fraud detection system 
+
+     * Built home-grown build automation to parallelize builds across 
+       supported platforms 
+     * Created HTML-based build report sent automatically upon build 
+       completion 
+
+
+  From....: Jul 1996
+  To......: Jul 1997
+  Title...: Quality Assurance Engineer
+  Company.: Intel
+  As......: Contractor
+  Location: Hillsboro, OR
+  Tech....: PVCS Tracker, Visual Basic 
+
+    Manual testing of Intel Video Phone; PVCS Tracker administration; Lead 
+    daily defect scrub / triage meetings; Produced slides for daily 
+    planning meeting 
+
+     * First foray into automation was to reduce the tedium of producing 
+       those slides that took an hour to make, and only appeared on the 
+       screen for 10 seconds 
+
+
+EDUCATION
+
+  When....: ongoing
+  School..: Coursera
+  Location: http://www.coursera.org/
+  Study...: Continuing Education
+   * Functional Programming Principles in Scala - École Polytechnique 
+     Fédérale de Lausanne 
+   * Functional Program Design in Scala - École Polytechnique Fédérale de 
+     Lausanne 
+   * Machine Learning - Stanford University 
+   * Machine Learning Specialization - University of Washington 
+
+  When....: 2009
+  School..: ASPE / Winnow Management
+  Location: Portland, OR
+  Study...: ScrumMaster Certification
+
+  When....: 2002
+  School..: Portland Community College
+  Location: Beaverton, OR
+  Study...: Beginning and Advanced Java Programming
+
+  When....: 2001
+  School..: Learning Tree International
+  Location: Los Angeles, CA
+  Study...: XML
+
+  When....: 2000
+  School..: Learning Tree International
+  Location: Beaverton, OR
+  Study...: UML Diagramming
+
+  When....: 1990-1991
+  School..: Chemeketa Community College
+  Location: Salem, OR
+  Study...: C Programming
+
+  When....: 1986-1989
+  School..: Wasilla High School
+  Location: Wasilla, AK
+  Study...: Computer Science (three years)
+
+
+
