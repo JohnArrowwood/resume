@@ -20,9 +20,10 @@ SUMMARY
   contract work (W2 or 1099/corp-to-corp). 
   ---
   This resume best viewed online: arrowwood.org/resume, and is also 
-  available as plain text and rich text. If you are interested in my 
-  approach to automation, I have posted a slideshow on the subject to 
-  arrowwood.org/automation-philosophy.  
+  available as plain text and rich text. 
+  ---
+  If you are interested in my approach to automation, I have posted a 
+  slideshow on the subject to arrowwood.org/automation-philosophy.  
 
 
 TECHNICAL SKILLS
@@ -114,8 +115,23 @@ SPECIALIZATIONS
 
 WORK HISTORY
 
-  From....: Nov 2015
+  From....: July 2019
   To......: Present
+  Title...: Software Development Engineer in Test (SDET)
+  Company.: Finra
+  As......: Employee
+  Location: Rockville, Maryland
+  Tech....: Postman, Scala, Gatling 
+
+    Team member working on the Finra Identity Platform team, a platform 
+    built on ForgeRock's OpenAM 
+
+     * Used my open source Gatling library and seed project to accelerate 
+       development 
+
+
+  From....: Nov 2015
+  To......: July 2019
   Title...: Software Development Engineer in Test (SDET)
   Company.: The Walt Disney Company
   As......: Employee
